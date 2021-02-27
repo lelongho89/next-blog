@@ -1,6 +1,5 @@
 module.exports = {
-  // see https://github.com/iamvishnusankar/next-sitemap
-  siteUrl: 'https://next.jamify.org',
+  siteUrl: 'https://example.org',
   generateRobotsTxt: true,
   sitemapSize: 7000,
 }

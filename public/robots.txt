@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://next.jamify.org
+Host: https://next.blog
 
 # Sitemaps
-Sitemap: https://next.jamify.org/sitemap.xml
+Sitemap: https://next.blog/sitemap.xml

@@ -2,8 +2,8 @@ import * as appConfig from '@appConfig'
 import { NavItem } from '@lib/ghost'
 
 // siteUrl, platform, ghostAPIUrl, ghostAPIKey must be defined here
-export const ghostAPIUrl = process.env.CMS_GHOST_API_URL || 'https://cms.gotsby.org'
-export const ghostAPIKey = process.env.CMS_GHOST_API_KEY || '387f956eaa95345f7bb484d0b8'
+export const ghostAPIUrl = process.env.CMS_GHOST_API_URL || 'http://localhost:2368'
+export const ghostAPIKey = process.env.CMS_GHOST_API_KEY || '5bfd6c9aac4be9f6fa9e5ad233'
 
 const siteUrl = process.env.SITE_URL || (process.env.VERCEL_URL && `https://${process.env.VERCEL_URL}`) || process.env.URL || 'http://localhost:3000'
 
